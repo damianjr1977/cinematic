@@ -1,0 +1,201 @@
+<!-- Main Content -->
+<div class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold mb-3">Nuestra Galería</h1>
+            <p class="lead text-muted">Explora nuestras mejores imágenes con efectos sorprendentes</p>
+            <div class="d-flex justify-content-center gap-2 mt-4">
+                <button class="btn btn-outline-primary filter-btn active" data-filter="all">Todas</button>
+                <button class="btn btn-outline-primary filter-btn" data-filter="nature">Naturaleza</button>
+                <button class="btn btn-outline-primary filter-btn" data-filter="tech">Tecnología</button>
+                <button class="btn btn-outline-primary filter-btn" data-filter="urban">Urbano</button>
+            </div>
+        </div>
+
+        <div class="row g-4 gallery-grid">
+            <!-- Naturaleza -->
+            <div class="col-md-6 col-lg-4 gallery-item" data-category="nature">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Montañas y lago" />
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h5>Mar cristalino</h5>
+                            <p>Hermosas vistas de aguas cristalinas</p>
+                            <a href="#" class="btn btn-sm btn-light me-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1505142468610-359e7d316be0?ixlib=rb-1.2.1" data-title="Montañas Reflejadas">
+                                Ampliar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-4 gallery-item" data-category="nature">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Bosque">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h5>Bosque Encantado</h5>
+                            <p>Vegetación densa con rayos de luz solar</p>
+                            <a href="#" class="btn btn-sm btn-light me-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1" data-title="Bosque Encantado">Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 gallery-item" data-category="nature">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1470114716159-e389f8712fda?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Cascada">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h5>Elegancia Natural</h5>
+                            <p>Un ave de largo pico contempla tranquila su entorno, símbolo de la belleza serena de lo salvaje</p>
+                            <a href="#" class="btn btn-sm btn-light me-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1470114716159-e389f8712fda?ixlib=rb-1.2.1" data-title="Elegancia Natural">Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 gallery-item" data-category="nature">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Paisaje">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h5>Paisaje Salvaje</h5>
+                            <p>Naturaleza en estado puro</p>
+                            <a href="#" class="btn btn-sm btn-light me-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1" data-title="Paisaje Salvaje">Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tecnología -->
+            <div class="col-md-6 col-lg-4 gallery-item" data-category="tech">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Electrónica">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h5>Electrónica Moderna</h5>
+                            <p>Circuitos y componentes electrónicos</p>
+                            <a href="#" class="btn btn-sm btn-light me-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1" data-title="Electrónica Moderna">Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 gallery-item" data-category="tech">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Computadora">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h5>Estación de Trabajo</h5>
+                            <p>Setup moderno para desarrollo tecnológico</p>
+                            <a href="#" class="btn btn-sm btn-light me-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1" data-title="Estación de Trabajo">Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 gallery-item" data-category="tech">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Robot">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h5>Robótica Avanzada</h5>
+                            <p>Agentes roboticos inteligentes para el desarrollo de la sociedad</p>
+                            <a href="#" class="btn btn-sm btn-light me-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?ixlib=rb-1.2.1" data-title="Robótica Avanzada">Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 gallery-item" data-category="tech">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Inteligencia Artificial">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h5>Inteligencia Artificial</h5>
+                            <p>Redes neuronales y aprendizaje automático</p>
+                            <a href="#" class="btn btn-sm btn-light me-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1" data-title="Inteligencia Artificial">Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Urbano -->
+            <div class="col-md-6 col-lg-4 gallery-item" data-category="urban">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Ciudad">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h5>Metrópoli</h5>
+                            <p>Rascacielos y vida urbana moderna</p>
+                            <a href="#" class="btn btn-sm btn-light me-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1" data-title="Metrópoli">Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 gallery-item" data-category="urban">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Arquitectura">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h5>Arquitectura Urbana</h5>
+                            <p>Edificios con diseño innovador</p>
+                            <a href="#" class="btn btn-sm btn-light me-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-1.2.1" data-title="Arquitectura Urbana">Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 gallery-item" data-category="urban">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1514565131-fce0801e5785?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Ciudad nocturna">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h5>Noche Urbana</h5>
+                            <p>Luces de la ciudad al anochecer</p>
+                            <a href="#" class="btn btn-sm btn-light me-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1514565131-fce0801e5785?ixlib=rb-1.2.1" data-title="Noche Urbana">Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 gallery-item" data-category="urban">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Calles">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h5>Desayuno Urbano</h5>
+                            <p>Un momento callejero: hamburguesas y papas fritas al amanecer entre charlas y risas</p>
+                            <a href="#" class="btn btn-sm btn-light me-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1" data-title="Calles Vibrantes">Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para imagen ampliada -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalImageTitle">Título de la imagen</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="image-container">
+                    <img src="" class="modal-image" id="modalImage" alt="Imagen ampliada">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">
+                    <i class="fas fa-times me-2"></i>Cerrar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
