@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematic & Gallery</title>
+    <!-- SEO -->
+    <meta name="description" content="Explora la galería y material cinematográfico más espectacular con imágenes de alta calidad y contenido exclusivo.">
+    <meta name="keywords" content="cine, galería, películas, imágenes, trailers, videos">
+    <meta name="author" content="DamianJR">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Header  -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <i class="fas fa-film me-2"></i>
+                    <span class="fw-bold">CINEMATIC</span>
+                    <span class="mx-1">&</span>
+                    <span class="fw-bold">GALLERY</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="display-4 fw-bold mb-3">Nuestra Galería</h1>
+                <p class="lead text-muted">Explora nuestras mejores imágenes con efectos sorprendentes</p>
+            </div>
+
+            <div class="row g-4 gallery-grid">
+                <!-- Sección Naturaleza -->
+                <div class="col-12">
+                    <h2 class="visually-hidden">Categorías</h2>
+                    <h3 class="mb-4">Naturaleza</h3>
+                </div>
+
+                <!-- Item 1 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="nature">
+                    <div class="gallery-card">
+                        <img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Montañas y lago" width="600" height="400">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Mar cristalino</h4>
+                                <p>Hermosas vistas de aguas cristalinas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="nature">
+                    <div class="gallery-card">
+                        <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Bosque" width="600" height="400">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Bosque Encantado</h4>
+                                <p>Vegetación densa con rayos de luz solar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="nature">
+                    <div class="gallery-card">
+                        <img src="https://images.unsplash.com/photo-1470114716159-e389f8712fda?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Cascada" width="600" height="400">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Elegancia Natural</h4>
+                                <p>Un ave de largo pico contempla tranquila su entorno, símbolo de la belleza serena de lo salvaje</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="nature">
+                    <div class="gallery-card">
+                        <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Paisaje" width="600" height="400">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Paisaje Salvaje</h4>
+                                <p>Naturaleza en estado puro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sección Tecnología -->
+                <div class="col-12 mt-5">
+                    <h3 class="mb-4">Tecnología</h3>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="tech">
+                    <div class="gallery-card">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Electrónica" width="600" height="400">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Electrónica Moderna</h4>
+                                <p>Circuitos y componentes electrónicos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="tech">
+                    <div class="gallery-card">
+                        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Computadora" width="600" height="400">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Estación de Trabajo</h4>
+                                <p>Setup moderno para desarrollo tecnológico</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="tech">
+                    <div class="gallery-card">
+                        <img src="https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Robot" width="600" height="400">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Robótica Avanzada</h4>
+                                <p>Agentes roboticos inteligentes para el desarrollo de la sociedad</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="tech">
+                    <div class="gallery-card">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Inteligencia Artificial" width="600" height="400">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Inteligencia Artificial</h4>
+                                <p>Redes neuronales y aprendizaje automático</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sección Urbano -->
+                <div class="col-12 mt-5">
+                    <h3 class="mb-4">Urbano</h3>
+                </div>
+
+                <!-- Item 9 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="urban">
+                    <div class="gallery-card">
+                        <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="img-fluid" alt="Ciudad" width="600" height="400">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h4>Metrópoli</h4>
+                                <p>Rascacielos y vida urbana moderna</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mb-lg-0">
+                    <div class="footer-brand">
+                        <h3 class="logo-wrapper mb-3">
+                            <i class="fas fa-film logo-icon me-2"></i>
+                            <span class="brand-name">CINEMATIC</span>
+                            <span class="brand-ampersand">&</span>
+                            <span class="brand-sub">GALLERY</span>
+                        </h3>
+
+                        <p class="footer-description">
+                            <span class="text-highlight">Soluciones digitales innovadoras</span> para transformar tu presencia online con experiencias visuales impactantes.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <div class="footer-links">
+                        <h3 class="section-title position-relative">
+                            <span class="title-text">Enlaces</span>
+                            <span class="title-decoration"></span>
+                        </h3>
+
+                        <ul class="link-list">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-page="index" href="../index.html">
+                                    <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+                                    <span class="link-text">Inicio</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-page="galeria" href="galeria.html">
+                                    <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+                                    <span class="link-text">Galería</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-page="contacto" href="contacto.html">
+                                    <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+                                    <span class="link-text">Contacto</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+                    <div class="text-center">
+                        <h3 class="position-relative mx-auto">
+                            <span>Contacto</span>
+                        </h3>
+
+                        <ul class="contact-list list-unstyled">
+                            <li class="contact-item">
+                                <div class="contact-content">
+                                    <i class="fas fa-map-marker-alt contact-icon"></i>
+                                    <span>Calle Ejemplo 123, Ciudad</span>
+                                </div>
+                            </li>
+                            <li class="contact-item">
+                                <div class="contact-content">
+                                    <i class="fas fa-phone contact-icon"></i>
+                                    <span>+34 123 456 789</span>
+                                </div>
+                            </li>
+                            <li class="contact-item">
+                                <div class="contact-content">
+                                    <i class="fas fa-envelope contact-icon"></i>
+                                    <span>cinematicgallery@web.com</span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <!-- Redes sociales -->
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="X">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" class="x-logo">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                            </svg>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Cinematic & Gallery. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white text-decoration-none me-3">Política de Privacidad</a>
+                    <a href="#" class="text-white text-decoration-none">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

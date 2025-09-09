@@ -1,0 +1,391 @@
+<!DOCTYPE 
+html
+>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematic & Gallery</title>
+    <!-- SEO -->
+    <meta name="description" content="Explora la galería y material cinematográfico más espectacular con imágenes de alta calidad y contenido exclusivo.">
+    <meta name="keywords" content="cine, galería, películas, imágenes, trailers, videos">
+    <meta name="author" content="DamianJR">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header  -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fas fa-film me-2"></i>
+                    <span class="fw-bold">CINEMATIC</span>
+                    <span class="mx-1">&</span>
+                    <span class="fw-bold">GALLERY</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="views/galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="views/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <div id="main-content">
+        <!-- Carrusel Hero -->
+        <div class="hero-section">
+            <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+                <!-- Indicadores Mejorados -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active">
+                    <span class="indicator-progress"></span>
+                </button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1">
+                    <span class="indicator-progress"></span>
+                </button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2">
+                    <span class="indicator-progress"></span>
+                </button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3">
+                    <span class="indicator-progress"></span>
+                </button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="4">
+                    <span class="indicator-progress"></span>
+                </button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-image-wrapper">
+                            <img src="assets/photo/spider_man_4.webp" alt="Spider-Man" width="3200" height="1800" class="d-block w-100" loading="lazy">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="carousel-caption animate__animated animate__fadeInUp">
+                            <h4 class="display-4 fw-bold mb-3">Spider-Man</h4>
+                            <p class="lead mb-4">El héroe arácnido de Nueva York</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-image-wrapper">
+                            <img src="assets/photo/825163.jpg" alt="Superhéroes" width="1920" height="1080" class="d-block w-100">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="carousel-caption animate__animated animate__fadeInUp">
+                            <h4 class="display-4 fw-bold mb-3">Universo de Superhéroes</h4>
+                            <p class="lead mb-4">Descubre el emocionante mundo de los cómics</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-image-wrapper">
+                            <img src="assets/photo/avengers_infinity_war_artwork_4k_8k_2-7680x4320.jpg" alt="Avengers" width="7680" height="4320" class="d-block w-100">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="carousel-caption animate__animated animate__fadeInUp">
+                            <h4 class="display-4 fw-bold mb-3">Avengers: Infinity War</h4>
+                            <p class="lead mb-4">El mayor crossover cinematográfico</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-image-wrapper">
+                            <img src="assets/photo/batman-vs-superman-awesome-logo-2560x1440-wallpaper-18385.jpg" alt="Batman vs Superman" width="2560" height="1440" class="d-block w-100">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="carousel-caption animate__animated animate__fadeInUp">
+                            <h4 class="display-4 fw-bold mb-3">Batman vs Superman</h4>
+                            <p class="lead mb-4">El amanecer de la justicia</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-image-wrapper">
+                            <img src="assets/photo/lee_pace_as_thranduil_in_hobbit_3-3840x2160.jpg" alt="El Hobbit" width="3840" height="2160" class="d-block w-100">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="carousel-caption animate__animated animate__fadeInUp">
+                            <h4 class="display-4 fw-bold mb-3">El Hobbit</h4>
+                            <p class="lead mb-4">Un viaje inesperado</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+            </div>
+        </div>
+
+        <!-- Sección de Cards -->
+        <div class="py-5 bg-light">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Nuestros Personajes</h2>
+                    <p class="text-muted">Descubre el universo cinematográfico</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm hover-effect">
+                            <div class="card-body text-center p-4">
+                                <div class="icon-box bg-danger bg-opacity-10 text-danger mb-4">
+                                    <i class="fas fa-spider fa-2x"></i>
+                                </div>
+                                <h4 class="card-title">Spider-Man</h4>
+                                <p class="card-text text-muted">El héroe arácnido de Nueva York con poderes increíbles y un gran sentido de responsabilidad.</p>
+                                <a href="#" class="btn btn-outline-primary">Ver películas <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm hover-effect">
+                            <div class="card-body text-center p-4">
+                                <div class="icon-box bg-primary bg-opacity-10 text-primary mb-4">
+                                    <i class="fas fa-shield-alt fa-2x"></i>
+                                </div>
+                                <h4 class="card-title">Avengers</h4>
+                                <p class="card-text text-muted">El equipo definitivo de superhéroes que protegen la Tierra de amenazas cósmicas.</p>
+                                <a href="#" class="btn btn-outline-primary">Ver saga <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm hover-effect">
+                            <div class="card-body text-center p-4">
+                                <div class="icon-box bg-warning bg-opacity-10 text-warning mb-4">
+                                    <i class="fas fa-fist-raised fa-2x"></i>
+                                </div>
+                                <h4 class="card-title">Batman vs Superman</h4>
+                                <p class="card-text text-muted">El épico enfrentamiento entre dos de los mayores iconos del cómic.</p>
+                                <a href="#" class="btn btn-outline-primary">Ver detalles <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm hover-effect">
+                            <div class="card-body text-center p-4">
+                                <div class="icon-box bg-success bg-opacity-10 text-success mb-4">
+                                    <i class="fas fa-ring fa-2x"></i>
+                                </div>
+                                <h4 class="card-title">El Hobbit</h4>
+                                <p class="card-text text-muted">La aventura fantástica de Bilbo Bolsón en la Tierra Media.</p>
+                                <a href="#" class="btn btn-outline-primary">Explorar <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Componente Especial de Bootstrap -->
+        <div class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center mb-5">
+                            <h2 class="fw-bold">Preguntas Frecuentes</h2>
+                            <p class="text-muted">Todo lo que necesitas saber sobre nuestro universo cinematográfico</p>
+                        </div>
+
+                        <div class="accordion" id="movieFAQ">
+                            <div class="accordion-item border-0 mb-3 rounded overflow-hidden">
+                                <h2 class="accordion-header" id="movieHeadingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#movieCollapseOne">
+                                <i class="fas fa-ticket-alt text-primary me-3"></i> ¿Dónde puedo comprar entradas para los estrenos?
+                            </button>
+                                </h2>
+                                <div id="movieCollapseOne" class="accordion-collapse collapse" data-bs-parent="#movieFAQ">
+                                    <div class="accordion-body">
+                                        Puedes adquirir tus entradas a través de nuestra plataforma online, en nuestras taquillas físicas o mediante nuestra app móvil. Recomendamos comprar con anticipación para los estrenos más esperados.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded overflow-hidden">
+                                <h2 class="accordion-header" id="movieHeadingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#movieCollapseTwo">
+                                <i class="fas fa-calendar-alt text-primary me-3"></i> ¿Cuándo será el próximo estreno del Universo Cinematográfico?
+                            </button>
+                                </h2>
+                                <div id="movieCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#movieFAQ">
+                                    <div class="accordion-body">
+                                        Nuestro calendario de estrenos se actualiza trimestralmente. El próximo gran estreno será "Spider-Man: Across the Spider-Verse Part 2" el 15 de diciembre. Suscríbete a nuestro newsletter para recibir las últimas actualizaciones.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded overflow-hidden">
+                                <h2 class="accordion-header" id="movieHeadingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#movieCollapseThree">
+                                <i class="fas fa-video text-primary me-3"></i> ¿Habrá versión extendida de "Batman vs Superman"?
+                            </button>
+                                </h2>
+                                <div id="movieCollapseThree" class="accordion-collapse collapse" data-bs-parent="#movieFAQ">
+                                    <div class="accordion-body">
+                                        Sí, estamos preparando una edición especial del director con 30 minutos adicionales de metraje inédito, que estará disponible en nuestra plataforma de streaming a partir del próximo mes.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded overflow-hidden">
+                                <h2 class="accordion-header" id="movieHeadingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#movieCollapseFour">
+                                <i class="fas fa-tshirt text-primary me-3"></i> ¿Dónde puedo comprar merchandising oficial?
+                            </button>
+                                </h2>
+                                <div id="movieCollapseFour" class="accordion-collapse collapse" data-bs-parent="#movieFAQ">
+                                    <div class="accordion-body">
+                                        Tenemos una tienda online con toda la colección oficial de merchandising. Además, en nuestros cines encontrarás una selección de productos exclusivos. Los suscriptores premium reciben un 15% de descuento en todas las compras.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded overflow-hidden">
+                                <h2 class="accordion-header" id="movieHeadingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#movieCollapseFive">
+                                <i class="fas fa-crown text-primary me-3"></i> ¿Qué beneficios tienen los miembros del club de fans?
+                            </button>
+                                </h2>
+                                <div id="movieCollapseFive" class="accordion-collapse collapse" data-bs-parent="#movieFAQ">
+                                    <div class="accordion-body">
+                                        Los miembros de nuestro club premium disfrutan de: acceso anticipado a entradas, proyecciones exclusivas, meet & greet con actores, descuentos en merchandising y contenido behind-the-scenes exclusivo.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mb-lg-0">
+                    <div class="footer-brand">
+                        <h3 class="logo-wrapper mb-3">
+                            <i class="fas fa-film logo-icon me-2"></i>
+                            <span class="brand-name">CINEMATIC</span>
+                            <span class="brand-ampersand">&</span>
+                            <span class="brand-sub">GALLERY</span>
+                        </h3>
+
+                        <p class="footer-description">
+                            <span class="text-highlight">Soluciones digitales innovadoras</span> para transformar tu presencia online con experiencias visuales impactantes.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <div class="footer-links">
+                        <h3 class="section-title position-relative">
+                            <span class="title-text">Enlaces</span>
+                            <span class="title-decoration"></span>
+                        </h3>
+
+                        <ul class="link-list">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-page="index" href="index.html">
+                                    <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+                                    <span class="link-text">Inicio</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-page="galeria" href="views/galeria.html">
+                                    <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+                                    <span class="link-text">Galería</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-page="contacto" href="views/contacto.html">
+                                    <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+                                    <span class="link-text">Contacto</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+                    <div class="text-center">
+                        <h3 class="position-relative mx-auto">
+                            <span>Contacto</span>
+                        </h3>
+
+                        <ul class="contact-list list-unstyled">
+                            <li class="contact-item">
+                                <div class="contact-content">
+                                    <i class="fas fa-map-marker-alt contact-icon"></i>
+                                    <span>Calle de la Esperanza, 128, 28010, Madrid, España</span>
+                                </div>
+                            </li>
+                            <li class="contact-item">
+                                <div class="contact-content">
+                                    <i class="fas fa-phone contact-icon"></i>
+                                    <span>+34 912 345 678</span>
+                                </div>
+                            </li>
+                            <li class="contact-item">
+                                <div class="contact-content">
+                                    <i class="fas fa-envelope contact-icon"></i>
+                                    <span>cinematicgallery@web.com</span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <!-- Redes sociales -->
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/" class="social-icon" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://x.com/" class="social-icon" aria-label="X">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" class="x-logo">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                            </svg>
+                            </a>
+                            <a href="https://www.instagram.com/" class="social-icon" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/learning-login/" class="social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Cinematic & Gallery. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white text-decoration-none me-3">Política de Privacidad</a>
+                    <a href="#" class="text-white text-decoration-none">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
